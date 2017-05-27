@@ -21,7 +21,7 @@ Template.materializeSelect.events({
     }
 });
 
-function renderSelect(){
+function renderSelect(template, data){
     template.$(".reactive-select").empty();
     $(".reactive-select").select2({
         data: data
