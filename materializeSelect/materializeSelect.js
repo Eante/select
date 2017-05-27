@@ -13,8 +13,9 @@ Template.materializeSelect.onRendered(() => {
 });
 
 Template.materializeSelect.events({
-    "change select": (event, template) => {
+    "change .reactive-select": (event, template) => {
         let callback = template.data.callback;
+        console.log($(event.target).val());
         if(callback){
             callback(event)
         }
