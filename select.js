@@ -1,4 +1,4 @@
-// Write your package code here!
+import './materializeSelect/materializeSelect.js'
 
 // Variables exported by this module can be imported by other packages and
 // applications. See select-tests.js for an example of importing.
